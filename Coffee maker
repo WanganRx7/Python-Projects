@@ -1,0 +1,21 @@
+class Coffeemaker:
+  def heatWater(self):
+    print('Heating water')
+
+  def brew(self):
+    print('Adding water to grounds')
+
+  def filterCoffee(self):
+    print('Filtering coffee')
+
+  def coffeismade(self):
+    print('Your coffee is ready! enjoy!')
+
+  def makeCoffee(self):
+    self.heatWater()
+    self.brew()
+    self.filterCoffee()
+    self.coffeismade()
+
+coffeMaker = Coffeemaker()
+coffeMaker.makeCoffee()
